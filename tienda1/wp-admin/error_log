@@ -1,0 +1,11 @@
+[13-Dec-2019 22:28:41 UTC] PHP Warning:  sprintf(): Too few arguments in /home1/rxpjfcmy/public_html/ramirezmunoz/tienda1/wp-admin/includes/class-bulk-upgrader-skin.php on line 152
+[13-Dec-2019 22:28:47 UTC] PHP Warning:  sprintf(): Too few arguments in /home1/rxpjfcmy/public_html/ramirezmunoz/tienda1/wp-admin/includes/class-bulk-upgrader-skin.php on line 152
+[13-Dec-2019 22:28:48 UTC] PHP Warning:  sprintf(): Too few arguments in /home1/rxpjfcmy/public_html/ramirezmunoz/tienda1/wp-admin/includes/class-bulk-upgrader-skin.php on line 152
+[13-Dec-2019 22:28:49 UTC] PHP Warning:  sprintf(): Too few arguments in /home1/rxpjfcmy/public_html/ramirezmunoz/tienda1/wp-admin/includes/class-bulk-upgrader-skin.php on line 152
+[13-Dec-2019 22:28:50 UTC] PHP Warning:  sprintf(): Too few arguments in /home1/rxpjfcmy/public_html/ramirezmunoz/tienda1/wp-admin/includes/class-bulk-upgrader-skin.php on line 152
+[13-Dec-2019 22:45:36 UTC] PHP Warning:  sprintf(): Too few arguments in /home1/rxpjfcmy/public_html/ramirezmunoz/tienda1/wp-admin/includes/class-bulk-upgrader-skin.php on line 152
+[13-Dec-2019 22:51:10 UTC] PHP Warning:  sprintf(): Too few arguments in /home1/rxpjfcmy/public_html/ramirezmunoz/tienda1/wp-admin/includes/class-bulk-upgrader-skin.php on line 152
+[13-Dec-2019 22:51:30 UTC] PHP Warning:  Error while sending QUERY packet. PID=206076 in /home1/rxpjfcmy/public_html/ramirezmunoz/tienda1/wp-includes/wp-db.php on line 2030
+[13-Dec-2019 22:58:05 UTC] PHP Warning:  Error while sending QUERY packet. PID=206076 in /home1/rxpjfcmy/public_html/ramirezmunoz/tienda1/wp-includes/wp-db.php on line 2030
+[18-Dec-2019 04:48:29 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home1/rxpjfcmy/public_html/ramirezmunoz/tienda1/wp-includes/class-wp-image-editor.php on line 484
+[18-Dec-2019 04:50:44 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home1/rxpjfcmy/public_html/ramirezmunoz/tienda1/wp-includes/class-wp-image-editor.php on line 484

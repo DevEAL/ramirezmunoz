@@ -1,0 +1,119 @@
+/**/
+.vc_element_label, .wpb_element_label {
+    font-size: 12px;
+    color: #1b1b1b;
+    text-transform: capitalize !important;
+}
+.wpb_el_type_heading{
+	background-color: #f9f9f9;
+}
+.wpb_el_type_heading .wpb_element_label {
+	font-weight:700;
+	font-size:14px;
+	margin-bottom: 0;
+    letter-spacing: normal;
+}
+/**
+ * CSF Framework
+ * 
+ */
+ .csf-field-image_select img {
+    max-width: 100%;
+}
+#csf-section-_meta_page_side_options_1 .csf--sibling {
+    max-width: 29%;
+}
+/*
+* Dashboard
+*/
+.zy-wrap .wp-badge{
+background:#0073aa url(../images/logo.png) center center no-repeat;
+}
+.wrap h2.zy-nav-tab-wrapper{
+    margin-top:80px;
+}
+.zy-wrap .three-col{
+    max-width: 1050px;
+}
+.zy-wrap .three-col .dashicons{
+    line-height:1.5;
+}
+.zy-col{
+    -webkit-box-shadow: 0px 1px 15px 1px rgba(69, 65, 78, 0.08);
+    -moz-box-shadow: 0px 1px 15px 1px rgba(69, 65, 78, 0.08);
+    box-shadow: 0px 1px 15px 1px rgba(69, 65, 78, 0.08);
+    background-color: #ffffff;
+    border-radius:6px;
+    
+}
+
+.col-wrap{
+    padding:25px;
+}
+
+/**
+* Shortcode
+*/
+.higlighted-theme {
+    background-color: #5156ea;
+    color: #fff;
+    padding: 5px 0;
+}
+
+.higlighted-dark {
+    background-color: #282828;
+    color: #fff;
+    padding: 5px 0;
+}
+
+.higlighted-gray {
+    background-color: #f9f9f9;
+    color: #5156ea;
+    padding: 5px 0;
+}
+
+
+.dropcap-1 {
+    display: inline-block;
+    margin: 5px 25px 0 0;
+    text-align: center;
+    color: #282828;
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: 600;
+    width: 50px;
+    height: 50px;
+    float: left;
+}
+
+.dropcap-2 {
+    display: inline-block;
+    margin: 5px 25px 0 0;
+    text-align: center;
+    color: #282828;
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: 600;
+    width: 50px;
+    height: 50px;
+    float: left;
+    background: #f9f9f9;
+}
+
+.dropcap-3 {
+    display: inline-block;
+    margin: 5px 25px 0 0;
+    text-align: center;
+    color: #ffffff;
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: 600;
+    width: 50px;
+    height: 50px;
+    float: left;
+    background: #5156ea;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+}

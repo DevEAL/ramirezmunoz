@@ -1,0 +1,972 @@
+.chzn-container {
+  width: 100% !important;
+}
+.chzn-container-single .chzn-search input {
+  width: 100% !important;
+}
+
+.wpb_el_type_vc_icon .search-field input,
+.wpb_el_type_vc_icon_el .search-field input {
+  width: 200px !important;
+}
+
+.chzn-container-single .chzn-drop {
+  width: 99.7% !important;
+}
+
+.wpb_el_type_vc_efa_chosen .chzn-container-multi .chzn-choices .search-choice .search-choice-close {
+	top: 6px !important;
+	height: 11px !important;
+}
+
+.wpb_el_type_vc_icon .search-field input,
+.wpb_el_type_vc_icon_el .search-field input {
+  height: 25px !important;
+}
+
+.wpb_edit_form_elements .vc-tabs > ul li a:focus {
+  box-shadow: none;
+}
+.metabox-composer-content a {
+  outline: none;
+}
+
+.vc_edit_form_elements .vc_column,
+.vc_edit_form_elements .vc_column-with-padding {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px SOlid #eee;
+}
+
+.vc_element_label,
+.wpb_element_label {
+  font-weight: 700;
+  margin-bottom: 15px;
+  display: block;
+  font-size: 12px;
+  color: #1b1b1b;
+  text-transform: uppercase;
+  letter-spacing: -0.5px;
+}
+
+/**
+ * Element Icons
+ */
+
+.vc_element-icon.fa,
+.vc_element-icon.ti {
+ background-image: none;
+ text-align: center;
+ line-height: 32px;
+ font-size: 18px;
+ border-radius: 3px;
+ color: #fff;
+ background: #166eff;
+}
+
+.vc_add-element-container .wpb-content-layouts a .vc_element-description {
+  color: #686868;
+}
+
+.vc_helper .vc_element-icon.fa{
+  color: #4396ff;
+  background: #fff;
+}
+
+.el_icons [data-icon]:before {
+	padding-right: 5px;
+}
+
+/**
+ * VC Bootstrap Five Columns
+ */
+.vc_col-md-five{
+  width: 20%;
+  float: left;
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+  box-sizing: border-box;
+}
+
+.vc_no_top_padding{
+  padding-top: 0 !important;
+}
+
+/**
+ * Add Element Modal
+ */
+.wpb-elements-list-modal .vc_element-icon.fa {
+  background-image: none;
+  text-align: center;
+  line-height: 32px;
+  color:#fff;
+  font-size: 14px;
+  border-radius: 32px;
+  background: #4396ff;
+  /*box-shadow: 0 1px 1px rgba(0,0,0,0.1);*/
+}
+
+.wpb-elements-list-modal .wpb-content-layouts li{
+  width: 200px;
+}
+
+.vc_add-element-container .wpb-content-layouts li {
+    background: #f3f3f3;
+    border: 1px solid #ffffff;
+}
+
+.vc_add-element-container .wpb-content-layouts a {
+    width: 100%;
+    color: #2d2d2d;
+    font-family: 'Poppins';
+    font-size: 13px;
+    letter-spacing: 0.3px;
+    font-weight: 500;
+}
+
+.vc_add-element-container .wpb-content-layouts li:hover {border-color:#4396ff;}
+
+.vc_shortcodes_container > .wpb_element_wrapper > .vc_container_for_children{
+  margin: 0 10px;
+  padding: 10px;
+}
+
+/**
+ * input type Number
+ */
+input[type=number] {
+  border: 1px solid #ddd;
+  box-shadow: inset 0 1px 2px rgba(0,0,0,.07);
+  background-color: #fff;
+  color: #32373c;
+  outline: 0;
+  height: auto;
+  transition: 50ms border-color ease-in-out;
+}
+
+/**
+ * Nested Shortcodes
+ */
+.vc_shortcodes_container{
+  position: relative;
+}
+
+.vc_shortcodes_container > .controls_column{
+  height: 32px;
+  padding: 6px;
+}
+
+.vc_shortcodes_container .rs-container-title {
+  text-align: right;
+  position: absolute;
+  left: 8px;
+  top: 6px;
+  z-index: 0;
+}
+
+.rs-label {
+	background: #4396ff;
+	color:#fff;
+	padding:2px 4px;
+	font-size:11px;
+	border-radius: 1px;
+
+}
+
+ul.thumbnails.image_picker_selector {
+    list-style: none;
+    padding: 0;
+}
+
+ul.thumbnails.image_picker_selector li {
+    margin: 0 10px 10px 0;
+    float: left;
+    width: 130px;
+}
+
+ul.thumbnails.image_picker_selector li .thumbnail {
+    display: inline-block;
+    float: left;
+    position: relative;
+    border-radius: 0;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    cursor: pointer;
+}
+
+ul.thumbnails.image_picker_selector li .thumbnail:before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border: 1px solid #e6e6e6;
+    -webkit-transition: border-color .3s ease;
+    -moz-transition: border-color .3s ease;
+    transition: border-color .3s ease;
+}
+
+ul.thumbnails.image_picker_selector li .thumbnail.selected:before {
+    border: 2px solid #505cfd;
+}
+
+ul.thumbnails.image_picker_selector li .thumbnail img {
+    width: 100%;
+    float: left;
+}
+
+ul.thumbnails.image_picker_selector li .thumbnail .image-picker-tooltip {
+    position: absolute;
+    top: 60%;
+    left: 0px;
+    width: 100%;
+    padding: 5px 0px;
+    margin-top: 11px;
+    text-transform: capitalize;
+    color: #fff;
+    background: #383838;
+    font-size: 12px;
+    white-space: nowrap;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 2;
+    min-width: 86%;
+    text-align: center;
+    -webkit-transform: translateX(0%);
+    -moz-transform: translateX(0%);
+    -ms-transform: translateX(0%);
+    -o-transform: translateX(0%);
+    transform: translateX(0%);
+    -webkit-transition: opacity .3s ease 0s, visibility .3s ease 0s;
+    -moz-transition: opacity .3s ease 0s, visibility .3s ease 0s;
+    -ms-transition: opacity .3s ease 0s, visibility .3s ease 0s;
+    -o-transition: opacity .3s ease 0s, visibility .3s ease 0s;
+    transition: opacity .3s ease 0s, visibility .3s ease 0s;
+}
+
+ul.thumbnails.image_picker_selector li .thumbnail .image-picker-tooltip:after {
+    content: '';
+    opacity: 0;
+    position: absolute;
+    left: 27px;
+    bottom: 25px;
+    border: 2px solid transparent;
+    border-bottom: 2px solid #383838;
+    border-left: 2px solid #383838;
+    transition: opacity .3s ease 0s;
+}
+
+ul.thumbnails.image_picker_selector li .thumbnail:hover .image-picker-tooltip {
+    opacity: 1;
+    visibility: visible;
+}
+
+.vc_properties-list .toggle_checkbox_wrap input[type="checkbox"] {
+    display: none;
+}
+
+.toggle_checkbox_wrap .toggle_checkbox {
+    display: inline-block;
+    width: 100px;
+    height: 30px;
+    position: relative;
+    background-color: #fff;
+    border: 1px solid #f1f1f1;
+}
+
+.toggle_checkbox_wrap .toggle_checkbox .button-animation {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: 0px;
+    z-index: 0;
+    -webkit-transition: background .3s ease 0s;
+    -moz-transition: background .3s ease 0s;
+    transition: background .3s ease 0s;
+}
+
+.toggle_checkbox_wrap .toggle_checkbox .button-animation:before {
+    content: "ON";
+    display: block;
+    width: 50px;
+    height: 30px;
+    position: absolute;
+    left: auto;
+    right: 0;
+    top: 0;
+    font-size: 11px;
+    background: #52d298;
+    color: #FFF;
+    border-radius: 0px;
+    text-align: center;
+    line-height: 30px;
+    -webkit-transition: right .3s ease 0s;
+    -moz-transition: right .3s ease 0s;
+    transition: right .3s ease 0s;
+}
+
+.toggle_checkbox_wrap .toggle_checkbox .button-animation.right-active:before {
+    right: 50px;
+    content: "OFF";
+    background: #f82600;
+    color: #FFF;
+}
+
+.vc_edit_form_elements .vc_shortcode-param.dfd-taxonomy-multicheck .edit_form_line .vc_checkbox-label {
+    display: inline-block;
+    margin: 0 10px 10px 0;
+}
+
+.vc_edit_form_elements .vc_shortcode-param.wpb_el_type_dfd_font_container input[type="checkbox"],
+.vc_edit_form_elements .vc_shortcode-param.wpb_el_type_checkbox input[type="checkbox"],
+.vc_edit_form_elements .vc_shortcode-param.dfd-taxonomy-multicheck input[type="checkbox"],
+.codepages-number-field-wrap input[type="checkbox"] {
+    position: relative;
+    background: transparent;
+    border-width: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    margin: 0 10px 0 0;
+    cursor: pointer;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.vc_edit_form_elements .vc_shortcode-param.wpb_el_type_dfd_font_container input[type="checkbox"]:before,
+.vc_edit_form_elements .vc_shortcode-param.wpb_el_type_checkbox input[type="checkbox"]:before,
+.vc_edit_form_elements .vc_shortcode-param.dfd-taxonomy-multicheck input[type="checkbox"]:before,
+.codepages-number-field-wrap input[type="checkbox"]:before {
+    content: "";
+    display: block;
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-top: -9px;
+    margin-left: -9px;
+    background: #fff;
+    border: 1px solid #e7e7e7;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition: background .3s ease, border-color .3s ease;
+    -moz-transition: background .3s ease, border-color .3s ease;
+    transition: background .3s ease, border-color .3s ease;
+}
+
+.vc_edit_form_elements .vc_shortcode-param.wpb_el_type_dfd_font_container input[type="checkbox"]:checked:before,
+.vc_edit_form_elements .vc_shortcode-param.wpb_el_type_checkbox input[type="checkbox"]:checked:before,
+.vc_edit_form_elements .vc_shortcode-param.dfd-taxonomy-multicheck input[type="checkbox"]:checked:before,
+.codepages-number-field-wrap input[type="checkbox"]:checked:before {
+    background: #34db83;
+    border-color: #34db83;
+}
+
+.vc_edit_form_elements .vc_shortcode-param.wpb_el_type_dfd_font_container input[type="checkbox"]:after,
+.vc_edit_form_elements .vc_shortcode-param.wpb_el_type_checkbox input[type="checkbox"]:after,
+.vc_edit_form_elements .vc_shortcode-param.dfd-taxonomy-multicheck input[type="checkbox"]:after,
+.codepages-number-field-wrap input[type="checkbox"]:after {
+    content: "\f00c";
+    font-family: "FontAwesome";
+    font-size: 10px;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: #fff;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transform: translate(-50%,-50%) scale(0);
+    -moz-transform: translate(-50%,-50%) scale(0);
+    -o-transform: translate(-50%,-50%) scale(0);
+    transform: translate(-50%,-50%) scale(0);
+    -webkit-transition: -webkit-transform .3s ease;
+    -moz-transition: -moz-transform .3s ease;
+    transition: transform .3s ease;
+}
+
+.vc_edit_form_elements .vc_shortcode-param.wpb_el_type_dfd_font_container input[type="checkbox"]:checked:after,
+.vc_edit_form_elements .vc_shortcode-param.wpb_el_type_checkbox input[type="checkbox"]:checked:after,
+.vc_edit_form_elements .vc_shortcode-param.dfd-taxonomy-multicheck input[type="checkbox"]:checked:after,
+.codepages-number-field-wrap input[type="checkbox"]:checked:after {
+    -webkit-transform: translate(-50%,-50%) scale(1);
+    -moz-transform: translate(-50%,-50%) scale(1);
+    -o-transform: translate(-50%,-50%) scale(1);
+    transform: translate(-50%,-50%) scale(1);
+}
+
+
+.codepages-button-group-container {
+    display: inline-block;
+}
+
+.codepages-button-group-container ul.options-list {
+    margin: 0;
+}
+
+.codepages-button-group-container ul.options-list li {
+    position: relative;
+    float: left;
+    text-align: center;
+    list-style: none;
+    margin: 0;
+}
+
+.codepages-button-group-container ul.options-list li label:before {
+    content: "";
+    display: block;
+    height: 0;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-bottom: 2px solid transparent;
+    -webkit-transition: border-color .3s ease;
+    -moz-transition: border-color .3s ease;
+    transition: border-color .3s ease;
+}
+
+.codepages-button-group-container ul.options-list li.active label:before {
+    border-bottom: 2px solid #505cfd;
+}
+
+.codepages-button-group-container ul.options-list li label {
+    display: block;
+    height: 35px;
+    line-height: 35px;
+    padding: 0 15px;
+    font-size: 12px;
+    background: transparent;
+    border: 1px solid #eaeaea;
+    border-left-width: 0;
+    -webkit-transition: background .3s ease;
+    -moz-transition: background .3s ease;
+    transition: background .3s ease;
+}
+
+.codepages-button-group-container ul.options-list li:first-child label {
+    border-left-width: 1px;
+}
+
+.codepages-button-group-container ul.options-list li.active label {
+    background: #f5f5f5;
+}
+
+.codepages-button-group-container ul.options-list li input[type="radio"] {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+}
+
+.element_tags .codepages-button-group-container ul.options-list li label {
+    padding: 0px;
+    font-size: 12px;
+    width: 30px;
+}
+
+.font_px .edit_form_line:before {
+    content: 'px';
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: block;
+    width: 38px;
+    height: 35px;
+    line-height: 33px;
+    text-align: center;
+    color: #3b3b3b;
+    background-color: #fff;
+    border: 1px solid #e5e5e5;
+    border-radius: 0px;
+}
+
+.font_px .edit_form_line {
+    padding-right: 36px;
+    position: relative;
+}
+
+.vc_properties-list input[type=checkbox] {
+    width: auto;
+    height: 16px;
+    margin-left: 5px;
+    margin-right: 2px;
+    display: inline-block;
+}
+
+.font_px .edit_form_line .codepages_number,
+.vc_edit_form_elements input {
+    font-size: 13px;
+    height: 37px;
+    line-height: 37px;
+    padding: 5px 5px 5px 15px;
+    margin: 0;
+    color: #282828;
+    background: #FFF;
+    border: 1px solid #e2e2e2;
+    border-radius: 0px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.vc_edit_form_elements .vc_shortcode-param[data-param_type="dropdown"] select.wpb_vc_param_value,
+.codepages-input-fonts-wrap select.codepages-custom-dropdown {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -o-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  font-size: 13px;
+  height: 37px;
+  line-height: 27px;
+  padding: 5px 5px 5px 15px;
+  margin: 0;
+  color: #282828;
+  border: 1px solid #e2e2e2;
+  border-radius: 0px;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  background: white url(../images/down-chevron.svg) no-repeat right 15px center;
+  text-align: left;
+}
+
+.vc_edit_form_elements textarea {
+    font-size: 13px;
+    min-height: 80px;
+    padding: 5px 5px 5px 15px;
+    margin: 0;
+    color: #282828;
+    background: #FFF;
+    border: 1px solid #e2e2e2;
+    border-radius: 0px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.vc_edit_form_elements .wp-picker-container .wp-color-result.button {
+    height: 37px;
+    margin: 0 6px 6px 0;
+    padding: 0 0 0 40px;
+    font-size: 11px;
+    box-shadow: none;
+    border-radius: 0;
+    border: 1px Solid #e5e5e5;
+}
+
+.vc_edit_form_elements .wp-color-result-text {
+    background: #f5f5f5;
+    border-radius: 0px;
+    border-left: 1px solid #e2e2e2;
+    color: #555;
+    display: block;
+    line-height: 35px;
+    padding: 0 6px;
+    text-align: center;
+}
+
+.codepages-heading-param-wrapper h3 {
+    font-size: 20px;
+    color: #d8d8d8;
+    margin: 0;
+    font-weight: 700;
+}
+
+.vc_edit_form_elements .wpb_el_type_codepages_typography {
+    border: 0px;
+    padding-bottom: 0;
+}
+
+.codepages_custom_check {
+    display: inline-block;
+    float: left;
+    width: 25%;
+}
+
+.tip_fonts, .tip_fonts a {
+    font-size: 12px;
+    margin: 15px 0px 0px 0px;
+    color: #868686;
+}
+
+.tip_fonts a:hover {
+    color: #000;
+}
+
+/** VC Templates **/
+.wp-admin #vc_ui-panel-templates {
+    width: 80%;
+    min-height: 90vh;
+    max-height: 90vh;
+    top: 5vh;
+}
+
+.wp-admin .vc_templates-panel:before {
+    content: '';
+    display: inline-block;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    visibility: hidden;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.wp-admin .vc_templates-panel.vc_active:before {
+    opacity: 1;
+    visibility: visible;
+}
+
+.wp-admin .vc_templates-panel .vc_ui-panel-window-inner {
+    border-radius: 5px;
+}
+
+.wp-admin .vc_templates-panel .wpb_element_wrapper .vc_message_box {
+    display: none;
+}
+
+.wp-admin .zytheme-sorting-container {
+    width: 200px !important;
+    height: 100%;
+    margin-bottom: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    background-color: #fff;
+    visibility: hidden;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.wp-admin .zytheme-sorting-container .sortable_templates {
+    display: block;
+    padding: 0.5em 0;
+    margin: 0 -15px;
+}
+
+.wp-admin .zytheme-sorting-container .sortable_templates ul {
+    display: block;
+    width: 100%;
+    margin: 0;
+    padding: 1.5em 0;
+    font-family: 'Karla';
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.wp-admin .zytheme-sorting-container .sortable_templates li {
+    display: block;
+    padding: 1em 25px 1em 40px;
+    margin: 0;
+    position: relative;
+    font-family: 'Muli', sans-serif;
+    font-size: 13px;
+    line-height: 1.5;
+    font-weight: 500;
+    color: #000;
+    cursor: pointer;
+}
+
+.wp-admin .zytheme-sorting-container .sortable_templates li span {
+    display: inline-block;
+    padding: 7px 10px 6px;
+    border-radius: 50em;
+    float: right;
+    position: relative;
+    top: -3px;
+    background-color: #41238e;
+    font-size: 11px;
+    line-height: 1em;
+    font-weight: 500;
+    text-align: center;
+    color: #fff;
+    opacity: 0;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    -webkit-transform: translate3d(-3px, 0, 0);
+    transform: translate3d(-3px, 0, 0);
+}
+
+.wp-admin .zytheme-sorting-container .sortable_templates li:hover, .wp-admin .zytheme-sorting-container .sortable_templates li.active {
+    background-color: #f5f5f5;
+    color: #41238e;
+}
+
+.wp-admin .zytheme-sorting-container .sortable_templates li:hover span, .wp-admin .zytheme-sorting-container .sortable_templates li.active span {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+
+.wp-admin .vc_templates-panel.vc_active .zytheme-sorting-container {
+    visibility: visible;
+}
+
+.wp-admin .zytheme-templates-container {
+    flex: 1;
+    width: auto !important;
+    padding-top: 25px;
+    margin: -23px 0 -35px -35px;
+    padding-left: 230px;
+    max-height: 81vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.wp-admin .zytheme-templates-container .vc_ui-template-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding: 0 20px;
+}
+
+.wp-admin .zytheme-templates-container .vc_ui-template-list:before, .wp-admin .zytheme-templates-container .vc_ui-template-list:after {
+    content: "";
+    display: table;
+}
+
+.wp-admin .zytheme-templates-container .vc_ui-template-list:after {
+    clear: both;
+}
+
+.wp-admin .zytheme-templates-container .vc_ui-template {
+    float: left;
+    width: calc(33.33333333333333% - 40px);
+    padding: 0 20px;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+
+.wp-admin .zytheme-templates-container .vc_ui-template.is-loading .vc_ui-list-bar-item-actions button {
+    opacity: 1;
+}
+
+.wp-admin .zytheme-templates-container .vc_ui-list-bar-item {
+    display: block;
+    text-align: center;
+    padding-bottom: 1em;
+    margin-bottom: 50px;
+    border: none;
+    background-color: #fff;
+    font-family: 'Poppins';
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.wp-admin .zytheme-templates-container .zytheme-template-preview {
+    width: 100%;
+    padding-bottom: 55.9%;
+    margin-bottom: 1em;
+    position: relative;
+}
+
+.wp-admin .zytheme-templates-container .zytheme-template-preview img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    z-index: 2;
+}
+
+.wp-admin .zytheme-templates-container .zytheme-badge-new {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: -20px;
+    right: -20px;
+    z-index: 3;
+    border-radius: 50em;
+    background-color: #6f14f1;
+    font-size: 11px;
+    font-weight: 700;
+    line-height: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    letter-spacing: 0.05em;
+}
+
+.wp-admin .zytheme-templates-container .zytheme-template-categories {
+    display: block;
+    margin-bottom: 0.75em;
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.3);
+}
+
+.wp-admin .zytheme-templates-container .vc_ui-list-bar-item-trigger {
+    width: 100%;
+    margin: 0.75em 0 0.75em;
+    padding: 0 20px;
+    font-weight: 600;
+    font-family: 'Muli', sans-serif;
+    font-size: 15px;
+    line-height: 1.5em;
+    letter-spacing: 0.01em;
+    white-space: normal;
+    text-align: center;
+}
+
+.wp-admin .zytheme-templates-container .vc_ui-list-bar-item-actions {
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 3;
+    opacity: 1;
+    visibility: visible;
+}
+
+.wp-admin .zytheme-templates-container .vc_ui-list-bar-item-actions button {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    opacity: 0;
+}
+
+.wp-admin .zytheme-templates-container .vc_ui-list-bar-item-actions button i {
+    display: inline-block;
+    font-size: 46px !important;
+}
+
+.wp-admin .vc_edit-form-tab[data-tab="zytheme_templates"] .vc_ui-template-list > .vc_ui-template.hidden {
+    display: none !important;
+}
+
+.wp-admin .vc_ui-panel .vc_panel-tabs [data-vc-panel-message] {
+    margin-left: 180px;
+    position: relative;
+    z-index: 10;
+}
+
+html[dir="rtl"] .wp-admin .zytheme-sorting-container {
+    left: auto;
+    right: 0;
+}
+
+html[dir="rtl"] .wp-admin .zytheme-sorting-container .sortable_templates li {
+    padding-left: 25px;
+    padding-right: 40px;
+    backface-visibility: hidden;
+}
+
+html[dir="rtl"] .wp-admin .zytheme-sorting-container .sortable_templates li span {
+    float: left;
+}
+
+html[dir="rtl"] .wp-admin .zytheme-templates-container {
+    padding-left: 15px;
+    padding-right: 230px;
+    margin: -35px -35px -35px -17px;
+}
+
+@media only screen and (max-width: 1750px) {
+    .wp-admin .zytheme-templates-container .vc_ui-template {
+        /* width: calc( 50% - 40px );*/
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .wp-admin .zytheme-templates-container .vc_ui-template {
+        width: calc( 50% - 40px);
+    }
+}
+
+@media screen and (max-width: 1199px) {
+    .wp-admin .zytheme-templates-container {
+        max-height: 79vh;
+    }
+    .wp-admin html[dir=rtl] .vc_ui-template-panel-header-container .vc_ui-panel-header-controls {
+        margin: 10px 12px 0 0;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .wp-admin .zytheme-templates-container {
+        padding-left: 220px;
+    }
+    .wp-admin .zytheme-templates-container .vc_ui-template-list {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .wp-admin .zytheme-templates-container .vc_ui-template {
+        width: calc( 100% - 10px);
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .wp-admin .zytheme-sorting-container {
+        width: 200px !important;
+    }
+    .wp-admin html[dir=rtl] .zytheme-templates-container {
+        padding-left: 0;
+        padding-right: 220px;
+    }
+}
+
+.select2-container,
+.select2-drop,
+.select2-search,
+.select2-search input {
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+ul.select2-choices {
+    font-size: 13px;
+    min-height: 27px !important;
+    height: 20px !important;
+    line-height: 37px;
+    padding: 5px 5px 5px 5px !important;
+    margin: 0 !important;
+    color: #282828;
+    background: #FFF;
+    border: 1px solid #e2e2e2 !important;
+    border-radius: 0px;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    background-image: none !important;
+}
+
+.select2-container-multi .select2-choices .select2-search-choice {
+    background: #f5f5f6;
+    border-color: #eaeaea;
+    border-radius: 0px;
+    padding: 8px 10px 8px 20px;
+    box-shadow: none;
+    background-image: none;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.select2-container-multi .select2-search-choice-close {
+    left: 5px;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+}

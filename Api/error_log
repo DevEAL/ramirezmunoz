@@ -1,0 +1,18 @@
+[17-Dec-2019 21:33:08 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home1/rxpjfcmy/public_html/ramirezmunoz/Api/Models/ModelOhlala.php:15
+Stack trace:
+#0 /home1/rxpjfcmy/public_html/ramirezmunoz/Api/Models/ControllerOhlala.php(12): ModelOhlala->Insert(Array)
+#1 /home1/rxpjfcmy/public_html/ramirezmunoz/Api/Contact.php(17): ControllerOhlala->Insert(Array)
+#2 {main}
+  thrown in /home1/rxpjfcmy/public_html/ramirezmunoz/Api/Models/ModelOhlala.php on line 15
+[17-Dec-2019 21:35:07 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home1/rxpjfcmy/public_html/ramirezmunoz/Api/Models/ModelOhlala.php:15
+Stack trace:
+#0 /home1/rxpjfcmy/public_html/ramirezmunoz/Api/Models/ControllerOhlala.php(12): ModelOhlala->Insert(Array)
+#1 /home1/rxpjfcmy/public_html/ramirezmunoz/Api/Contact.php(17): ControllerOhlala->Insert(Array)
+#2 {main}
+  thrown in /home1/rxpjfcmy/public_html/ramirezmunoz/Api/Models/ModelOhlala.php on line 15
+[17-Dec-2019 21:35:27 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home1/rxpjfcmy/public_html/ramirezmunoz/Api/Models/ModelOhlala.php:15
+Stack trace:
+#0 /home1/rxpjfcmy/public_html/ramirezmunoz/Api/Models/ControllerOhlala.php(12): ModelOhlala->Insert(Array)
+#1 /home1/rxpjfcmy/public_html/ramirezmunoz/Api/Contact.php(17): ControllerOhlala->Insert(Array)
+#2 {main}
+  thrown in /home1/rxpjfcmy/public_html/ramirezmunoz/Api/Models/ModelOhlala.php on line 15

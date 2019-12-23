@@ -1,0 +1,152 @@
+@media (max-width: 1024px) {
+    .header{
+        background-image: url('../img/bg_header_1024.png');
+        img{
+            margin-top: 4rem;
+            width: 600px;
+        }
+    }
+    .cuando{
+        .row{ padding: 4rem 4rem; }
+    }
+    .llegar{
+        .row{
+            padding: 4rem 4rem;
+            .mapa{
+                border: 1px solid $textoGris;
+                iframe{ width: 100%; }
+            }
+        }
+    }
+    .dress-code{
+        .row{ padding: 4rem 4rem; }
+    }
+
+    .rsvp{
+        .row{ padding: 4rem 4rem; }
+    }
+}
+
+@media (max-width: 992px) {
+    .cuando{
+        .row{
+            .img-cuando{ text-align: center; }
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .navbar{
+        .navbar-nav{
+            .nav-item{
+                display: flex;
+                align-items: center;
+            }
+            .nav-link{ text-align: center; }
+        }
+    }
+    .header{
+        background-image: url('../img/bg_header_768.png');
+        img{
+            margin-top: 2rem;
+            width: 500px;
+        }
+    }
+    .cuando{
+        .row{
+            .img-cuando{ margin-bottom: 4rem; }
+        }
+    }
+    .dress-code{
+        .row{
+            .img-dress{
+                margin-top: 2rem;
+                order: 2;
+            }
+            .info-llegar{ order: 1; }
+        }
+    }
+    .rsvp{
+        .row{
+            .img-rsvp{
+                margin-top: 2rem;
+                text-align: center;
+                img{ width: 200px; }
+            }
+            .btn-rsvp{
+                color: $colorGris;
+                font-family: $fuenteTextos;
+                font-size: 20px;
+                padding:.5rem 1.2rem;
+                background: $colorAzul;
+                border:2px solid  $colorAzul;
+                transition: .5s all;
+                &:hover{
+                    border:2px solid  $colorAzul;
+                    background: #557488aa;
+                }
+            }
+        }
+    }
+    footer{
+        .row{ padding: 2rem 4rem; }
+    }
+}
+
+@media (max-width: 414px) {
+    h1,h2,h3,h4,h5,h6{ letter-spacing: .2rem; }
+    p,li{ font-size: 1.2rem; }
+    .header{
+        height: 80vh;
+        background-image: url('../img/bg_header_414.png');
+        img{
+            margin-top: 2rem;
+            width: 300px;
+        }
+    }
+    .cuando{
+        .row{
+            padding: 2rem 0rem;
+            .img-cuando{
+                img{ width: 130px; }
+            }
+        }
+    }
+    
+    .llegar{
+        .row{
+            padding: 2rem 0rem;
+            .info-llegar{
+                a{ color: $colorAzul; }
+            }
+            .mapa{
+                border: 1px solid $textoGris;
+            }
+        }
+    }
+    
+    .dress-code{
+        .row{
+            padding: 2rem .0rem;
+        }
+    }
+
+    .rsvp{
+        .row{
+            padding: 2rem 0rem;
+            .img-rsvp{
+                margin-top: 2rem;
+                text-align: center;
+                img{ width: 150px; }
+            }
+            .form-check{
+                label{
+                    max-height: 35px;
+                }
+            }
+        }
+    }
+    footer{
+        .row{ padding: 2rem 0rem; }
+    }
+}
